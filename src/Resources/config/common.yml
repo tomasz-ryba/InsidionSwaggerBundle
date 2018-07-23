@@ -1,4 +1,7 @@
 services:
+  _defaults:
+    public: true
+
   swagger.external.filesystem:
     class: Symfony\Component\Filesystem\Filesystem
 
